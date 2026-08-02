@@ -404,3 +404,25 @@ textarea:focus{
 .btn-success:hover{
     background:#00cc66;
 }
+.workout-card{
+    background:#181818;
+    color:white;
+    border:1px solid rgba(0,255,136,.25);
+    border-radius:20px;
+    transition:.4s;
+    overflow:hidden;
+}
+
+.workout-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 20px 40px rgba(0,255,136,.35);
+}
+
+.workout-card h3{
+    color:#00ff88;
+    margin-bottom:20px;
+}
+
+.workout-card p{
+    color:#cccccc;
+}
