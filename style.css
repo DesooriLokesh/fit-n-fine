@@ -373,3 +373,34 @@ textarea:focus{
 ::-webkit-scrollbar-thumb:hover{
     background:#00cc66;
 }
+.hero{
+    min-height:100vh;
+    background:
+        linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+        url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:70px;
+    font-weight:800;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+}
+
+.btn-success{
+    background:#00ff88;
+    border:none;
+    color:#000;
+}
+
+.btn-success:hover{
+    background:#00cc66;
+}
