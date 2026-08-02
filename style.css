@@ -426,3 +426,44 @@ textarea:focus{
 .workout-card p{
     color:#cccccc;
 }
+/* ===== Workout Cards ===== */
+
+.workout-card{
+    background:#171717;
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+.workout-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 20px 40px rgba(0,255,136,.35);
+}
+
+.workout-card img{
+    height:260px;
+    object-fit:cover;
+    transition:0.5s;
+}
+
+.workout-card:hover img{
+    transform:scale(1.08);
+}
+
+.workout-card .card-body{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.workout-card h3{
+    color:#00ff88;
+    margin-bottom:15px;
+}
+
+.workout-card p{
+    color:#d6d6d6;
+}
